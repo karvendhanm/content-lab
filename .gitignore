@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Third-party cloned repositories in experiment folders
+articles/**/experiments/strands-decider/
+external/
+
+# Model checkpoints, heavy weights & tensors
+*.pt
+*.bin
+*.safetensors
+*.onnx
+checkpoints/
+**/checkpoints/
+
+# Raw dataset downloads and heavy data files
+*.parquet
+*.arrow
+*.tar.gz
+*.zip
+*.h5
+data/raw/
+**/data/raw/
+
+# Logs and training runs
+runs/
+wandb/
+*.log
+
+# OS & Editor artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/

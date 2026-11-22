@@ -22,7 +22,7 @@ checkpoints/
 **/checkpoints/
 
 # Raw dataset downloads and heavy data files
-*.parquet
+*.parqueterror
 *.arrow
 *.tar.gz
 *.zip
@@ -42,3 +42,6 @@ Thumbs.db
 *.swo
 *~
 .idea/
+
+# access keys
+.env
